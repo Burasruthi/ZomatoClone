@@ -79,6 +79,21 @@
   border-radius: 5px;
 
 }
+body.darkBg .footerSection{
+    background-color: black;
+
+}
+body.darkBg .footer-right .right{
+    border-color: black;
+    filter: brightness(5%);
+}
+body.darkBg .footer1 span{
+    color: black;
+
+}
+body.darkBg .images img{
+    filter: brightness(5%);
+}
 
 @media(max-width: 400px){
 .footerSection{

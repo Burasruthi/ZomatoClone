@@ -1,0 +1,88 @@
+.signup{
+    box-sizing: border-box;
+    height: 505px;
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+
+
+}
+.signuptop{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: -25px;
+
+}
+.signuptop h3{
+    font-size: 29px;
+    padding: 0;
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.715);
+
+}
+.signup-text input[type="text"]{
+border: 2PX solid rgba(0, 0, 0, 0.268);
+width: 350px;
+border-radius: 5px;
+margin: 7px;
+margin-left: 30px;
+padding: 15px;
+}
+.signup-text input[type="text"]::placeholder{
+    font-size: 16px;
+}
+.signup-checkbox input[type="checkbox"]{
+    padding: 5px;
+    margin-top: 10px;
+    
+}
+.signup-checkbox{
+    margin-left: 30px;
+}
+.signup-checkbox p{
+    position: absolute;
+    top: 41%;
+    left: 12%;
+    width: 350px;
+    font-size: 13px;
+
+}
+.sigupdown1{
+    padding: 40px;
+
+
+}
+.sigupdown1 p{
+    margin-top: -2px;
+    margin-bottom: -10px;
+    width: 350px;
+    border: 2px solid rgba(128, 128, 128, 0.101);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.541);
+    color: white;
+}
+.sigupdown1{
+    text-align: center;
+   
+    
+}
+
+.signupdown2{
+    width: 350px;
+    border: 2px solid rgba(0, 0, 0, 0.144);
+    margin-top: -20px;
+    margin-left: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.signupdown2 p{
+    margin-top: -5px;
+}
+.sinupdown3{
+    padding: 25px;
+}

@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Section from './section/Section';
 import Footer from './footer/Footer';
 import Login from './login/Login';
+import SignUp from './SignUp/SignUp';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Section/>
       <Footer/>
       <Login/>
+      <SignUp/>
     </>
   );
 }

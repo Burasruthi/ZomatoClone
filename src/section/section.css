@@ -12,6 +12,15 @@
     align-items: center; */
 
 }
+body.darkBg .section p{
+    color: black;
+}
+body.darkBg .inner-cards{
+    box-shadow: 0 0 0 0 black;
+}
+body.darkBg .section img{
+    filter: brightness(5%);
+}
 
 .section h4{
     margin-top: -25px;

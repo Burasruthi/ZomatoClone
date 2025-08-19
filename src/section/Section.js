@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './section.css'
 import { data } from './data'
-
+import '../components/header.css'
 
 const Section = () => {
 
