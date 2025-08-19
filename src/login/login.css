@@ -1,0 +1,84 @@
+.login{
+    box-sizing: border-box;
+    height: 470px;
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.login-top{
+    display: flex;
+    justify-content: space-between
+}
+.login-top p{
+    padding: 25px;
+    
+}
+.login-top h3{
+    font-size: 30px;
+    color: gray;
+    padding-left: 30px;
+}
+.loginbody{
+    width: 360px;
+    margin-left: 33px;
+    box-sizing: border-box;
+    border: 1px solid rgb(102, 98, 98);
+    border-radius: 5px;
+    padding: 5px;
+}
+.loginbody img{
+    padding-right: 2px;
+    margin-right: 5px;
+    margin-bottom: -5px;
+}
+.loginbody span{
+   padding-right: 5px;
+
+    
+}
+
+input[type="text"]{
+    
+    border-left: 1px solid black;
+    padding: 10px;
+    border: 2px solid white;
+  
+}
+input[type="text"]::placeholder{
+    font-size: 20px;
+    
+
+}
+.logindown{
+    text-align: center;
+}
+.logindown p{
+    width: 350px;
+    background-color: rgb(240, 4, 4);
+    padding: 10px;
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.logindown span{
+    
+}
+.logindown1{
+    border: 2px solid black;
+    width: 350px;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 20px;
+    /* text-align: center; */
+    margin-left: 30px;
+}
+.logindown1 img{
+    margin-bottom: -5px;
+}
+.down{
+    padding-top: 10px;
+    margin-left: 10px;
+}
