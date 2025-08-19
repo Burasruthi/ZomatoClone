@@ -45,10 +45,31 @@ img{
     color: white;
     font-size: 20px;
     right: 20%;
+
+
 }
 a{
     margin: 15px;
     cursor: pointer;
+}
+.wrong p{
+    display: none;
+    color: "black";
+    position:"absolute";
+     top: "3%";
+    font-size:"10px"
+}
+.hamburger p{
+    display: none;
+    position: absolute;
+    top: -12px;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+  
+}
+.nav h4{
+   display: none;
 }
 /* .login{
     display: none;
@@ -64,10 +85,12 @@ a{
     background-color: white;
     border-radius: 10px;
     display: none;
+    position: fixed;
     position: absolute;
     left: 600px;
     top: 90px;
     z-index: 2;
+    
 
 }
 .login p{
@@ -178,6 +201,127 @@ input[type="text"]::placeholder{
     margin-left: 10px;
 
 }
+
+.signup.active{
+    display: block;
+}
+.signup{
+    
+    display: none;
+    box-sizing: border-box;
+    height: 505px;
+    width: 450px;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: fixed;
+    position: relative;
+    position: absolute;
+    top: -500px;
+    left: 600px;
+    background-color: white;
+    margin-bottom: -520px;
+    z-index: 2;   
+    
+}
+.signuptop{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: -25px;
+
+}
+.signuptop h3{
+    font-size: 29px;
+    padding: 0;
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.715);
+
+}
+.signup-text input[type="text"]{
+border: 2PX solid rgba(0, 0, 0, 0.268);
+width: 350px;
+border-radius: 5px;
+margin: 7px;
+margin-left: 30px;
+padding: 15px;
+}
+.signup-text input[type="text"]::placeholder{
+    font-size: 16px;
+}
+.signup-checkbox input[type="checkbox"]{
+    padding: 5px;
+    margin-top: 10px;
+    
+}
+.signup-checkbox{
+    margin-left: 30px;
+}
+.signup-checkbox p{
+    position: absolute;
+    top: 41%;
+    left: 12%;
+    width: 350px;
+    font-size: 13px;
+
+}
+.sigupdown1{
+    padding: 40px;
+
+
+}
+.sigupdown1 p{
+    margin-top: -2px;
+    margin-bottom: -10px;
+    width: 350px;
+    border: 2px solid rgba(128, 128, 128, 0.101);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.541);
+    color: white;
+}
+.sigupdown1{
+    text-align: center;
+   
+    
+}
+
+.signupdown2{
+    width: 350px;
+    border: 2px solid rgba(0, 0, 0, 0.144);
+    margin-top: -20px;
+    margin-left: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.signupdown2 p{
+    margin-top: -5px;
+}
+.sinupdown3{
+    padding: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  @media(max-width: 400px) {
     img{
         height: 1300px;
@@ -199,14 +343,71 @@ input[type="text"]::placeholder{
         word-spacing: 2px;
         width: 1000px;    
     }
-    .hanburger{
-        display: block;
-        
-    }
-    .nav{
-        display: none;
-    }
+    
+    .hamburger p{
    
+        padding: 10px;
+        padding-left: 65px;
+        font-size: 100px;
+        display: block;
+}
+    .nav{
+         width: 200%;
+        display: none;
+        /* font-size: 50px;
+        display: flex;
+        flex-direction: column;
+        padding: 60px;
+        justify-content: center;
+        margin-top: 140px;
+        top: 90%;
+        left: 40%;
+        
+        background-color: white; */
+        
+
+       
+    }
+    a{
+        padding-top: 100px;
+        font-size: 70px;
+        color: gray;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    body.active{
+        background-color: white;
+     }
+    .nav.active{
+        display: block;
+         width: 200%;
+     
+        font-size: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        top: 0%;
+        left: 0%;
+        padding-top: 400px;
+        padding-bottom: 1000px;
+        padding-left: 30%;
+        padding-right: 90%;
+        background-color: white;
+        z-index: 2;
+    } 
+    .nav .wrong p{
+        display: block;
+        color: black;
+        position: absolute;
+        top: 1%;
+        font-size: 90px;
+    }
+    .nav h4{
+        display: block;
+        color: black;
+    } 
+    
+    
     
 } 
 
