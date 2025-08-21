@@ -405,7 +405,7 @@ cursor: pointer;
         top: 0%;
         left: 0%;
         padding-top: 400px;
-        padding-bottom: 1450px;
+        padding-bottom: 100%;
         padding-left: 30%;
         padding-right: 190%;
         background-color: white;
@@ -551,8 +551,8 @@ body.no-scroll {
 
 .signup{
     box-sizing: border-box;
-    height: 1800px;
-    width: 1450px;
+    height: 2500px;
+    width: 1500px;
     border: 2px solid black;
     border-radius: 10px;
     position: relative;
