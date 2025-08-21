@@ -1,5 +1,5 @@
 img{
-    height: 600px;
+    height: 570px;
     width: 100vw;
     position: relative;
     object-fit: cover; 
@@ -324,7 +324,7 @@ input[type="text"]::placeholder{
 
  @media(max-width: 400px) {
     img{
-        height: 1400px;
+        height: 1600px;
         width: 1520px;
         
     }
@@ -432,29 +432,28 @@ input[type="text"]::placeholder{
 } */
 .login{
     
-    height: 60vh;
-    width: 250vw;
-    left: 90vw;
-    top: 90px;
+    height: 360vh;
+    width: 350vw;
+   
     z-index: 2;  
     position: absolute;
     /* position: sticky; */
-    left: 300px;
-    top: 100px;
+    left: 100px;
+    top: 490px;
     z-index: 2;  
 }
 .login-top h3{
-    font-size: 70px;
+    font-size: 100px;
     color: gray;
     padding-left: 60px;
 } 
 .login-top p{
-    font-size: 40px;
-    padding: 55px;
+    font-size: 70px;
+    padding: 80px;
     
 }
 .loginbody{
-    width: 80%;
+    width: 85%;
     margin-left: 73px;
     border-radius: 5px;
     padding: 40px;
@@ -468,7 +467,7 @@ input[type="text"]::placeholder{
 }
 .loginbody span{
     font-size: 50px;
-   padding-right: 15px;
+   padding-right: 55px;
 
     
 }
@@ -476,18 +475,18 @@ input[type="text"]::placeholder{
 input[type="text"]{
     
     border-left: 1px solid black;
-    padding: 12px 20px 0px 10px;
+    padding: 30px;
     border: 2px solid white;
   
 }
 input[type="text"]::placeholder{
-    font-size: 30px;
+    font-size: 50px;
     
 
 }
 .logindown p{
-    font-size: 35px;
-    width: 74%;
+    font-size: 55px;
+    width: 80%;
     padding: 25px;
     border-radius: 5px;
     margin-left: 67px;
@@ -495,19 +494,24 @@ input[type="text"]::placeholder{
     
 }
 .logindown i{
-    font-size: 35px;
+    font-size: 55px;
 }
 .logindown1 span{
-    font-size: 36px;
+    font-size: 49px;
+    padding: 20px;
+    
 }
 .logindown1{
     border: 2px solid rgba(0, 0, 0, 0.304);
-    width: 76%;
-    padding: 20px;
+    width: 80%;
+    padding: 50px;
     border-radius: 10px;
-    margin: 20px;
+     margin-top: 80px;
+    /* margin: 20px; */
     text-align: center;
-    margin-left: 55px;
+    margin-left: 75px;
+   
+
 }
 .logindown1-inner{
    font-size: 30px;
@@ -522,8 +526,9 @@ input[type="text"]::placeholder{
 .down{
     /* padding-top: 10px;
     margin-left: 10px; */
-    padding: 40px;
-    font-size: 35px;
+    padding-left: 70px;
+    padding-top: 120px;
+    font-size: 55px;
 
 }
 body.no-scroll {
