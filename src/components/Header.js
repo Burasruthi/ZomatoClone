@@ -133,7 +133,7 @@ let showSignUp = () => {
           <form>
             <div className='signuptop'>
                 <h3>Sign Up</h3>
-                <p style={{margin: "23px", fontSize:"20px", cursor:"pointer"}} onClick={removeSignUp}>&#10006;</p>
+                <p  onClick={removeSignUp}>&#10006;</p>
             </div>
             <div className='signup-text'>
                 <input type="text" placeholder='Full Name'/><br></br>
@@ -150,8 +150,8 @@ let showSignUp = () => {
                 
             </div>
             <div className='signupdown2'>
-                <img style={{height:"20px", width:"20px"}} src="https://images.icon-icons.com/2699/PNG/512/google_logo_icon_169090.png"/>
-                <span style={{paddingLeft:"5px",paddingTop:"10px"}}>Sign in with Google</span>
+                <img  src="https://images.icon-icons.com/2699/PNG/512/google_logo_icon_169090.png"/>
+                <span>Sign in with Google</span>
             </div>
             <div className='sinupdown3'>
                 <hr></hr>

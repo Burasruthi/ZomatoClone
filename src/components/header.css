@@ -245,6 +245,12 @@ input[type="text"]::placeholder{
     margin-top: -25px;
 
 }
+.signuptop p{
+
+height: 25px;
+font-size: 20px;
+cursor: pointer;
+}
 .signuptop h3{
     font-size: 29px;
     padding: 0;
@@ -310,6 +316,13 @@ input[type="text"]::placeholder{
     border-radius: 5px;
     text-align: center;
 }
+.signupdown2 img{
+    height: 30px;
+    width: 30px;
+}
+.signupdown2 span{
+    font-size: 40px;
+}
 .signupdown2 p{
     margin-top: -5px;
 }
@@ -330,14 +343,14 @@ input[type="text"]::placeholder{
     }
     .header h1{
         position: absolute;
-        top: 90%;
+        top: 50%;
         left: 70%;
         font-size: 240px;
        
     }
     .header h4{
         position: absolute;
-        top:150%;
+        top:140%;
         left:90%;
         color: white;
         font-size: 66px;
@@ -537,80 +550,89 @@ body.no-scroll {
 
 .signup{
     box-sizing: border-box;
-    height: 1200px;
-    width: 930px;
+    height: 1700px;
+    width: 1450px;
     border: 2px solid black;
     border-radius: 10px;
     position: relative;
     position: fixed;
-    top: 300px;
-    left: 200px;
+    top: 400px;
+    left: 0px;
     
     
 }
 .signuptop h3{
-    font-size: 70px;
+    font-size: 90px;
     padding: 20px;
     margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.715);
 
 }
+.signuptop p{
+    font-size: 60px;
+}
 .signup-text input[type="text"]{
 
-    width: 650px;
-    height: 70px;
-    padding: 20px;
-    margin: 20px;
-    margin-left: 80px;
+    width: 1050px;
+    height: 90px;
+    padding: 30px;
+    margin: 40px;
+    margin-left: 150px;
 
 }
 .signup-text input[type="text"]::placeholder{
-    font-size: 36px;
+    font-size: 49px;
+    padding: 10px;
 }
 .signup-checkbox input[type="checkbox"]{
     padding: 20px;
     margin-top: 25px;
-    margin-left: 70px;
-    
+    margin-left: 120px;
+     width: 55px;
+  height: 55px;
 }
 .signup-checkbox p{
     position: absolute;
-    top: 45%;
-    left: 17%;
-    width: 650px;
-    font-size: 30px;
+    top: 43%;
+    left: 15%;
+    width: 1100px;
+    font-size: 46px;
 
 }
 .sigupdown1 p{
-    margin-top: 50px;
-    margin-bottom: 10px;
-    margin-left: 40px;
-    width: 620px;
-    padding: 20px;
+    margin-top: 160px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    width: 1050px;
+    padding: 36px;
     border-radius: 10px;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
 }
 .sigupdown1 i{
-    font-size: 30px;
+    font-size: 70px;
+ 
 }
 .signupdown2{
-    width: 650px;
+    width: 1050px;
     border: 2px solid rgba(0, 0, 0, 0.144);
-    margin-top: -20px;
-    margin-left: 75px;
+    margin-top:  20px;
+    margin-left: 145px;
     font-size: 30px;
-    padding: 25px;
+    padding: 45px;
     border-radius: 5px;
     text-align: center;
 }
 .signupdown2 img{
-    height: 30px;
-    width: 30px;
+    height: 60px;
+    width: 60px;
 }
 .signuptop p{
     margin: 23px;
     font-size: 40px;
+}
+.signupdown2 span{
+    font-size: 30px;
 }
 .sinupdown3{
     padding: 45px;
