@@ -78,15 +78,16 @@ body.darkBg .section img{
 }
 
 @media(max-width: 400px){
+
   .section h1{
-    margin-left: 220px;
+    margin-left: 370px;
     width: 700px;
+    margin-top: 80px;
     font-weight: 200;
     font-size: 70px;
    
   }
-  .section img{
-   
+  .section img{   
     height: 70px;
     width: 100px;
     border-radius: 10px;
@@ -95,17 +96,17 @@ body.darkBg .section img{
     
 }
 .section p{
-   
-    padding: 50px 170px;
+    padding: 70px 300px;
     font-size: 50px;
     line-height: 80px;   
 }
 .cards{
     display: block;
+    margin-left: 120px;
 }
 
  .inner-cards {
-    width: 250vw;
+    width: 290vw;
     height: 160px;
     margin-left: 90px;
     margin-top: 80px;

@@ -104,23 +104,24 @@ body.darkBg .images img{
 
 @media(max-width: 400px){
 .footerSection{
-     height: 2000px;
-     width: 1200px;
+     height: 2500px;
+     width: 1500px;
 
 }
 .footer{
     flex-direction: column;
-    margin-left: -500px;
+    margin-left: -700px;
    
 
 }
 .left h2{
     font-size: 115px;
     
+    
 }
 .footer-right{
     flex-direction: row;
-    margin-left: 140px;
+    margin-left: 120px;
 }
 .footer .right{
     
@@ -140,23 +141,26 @@ body.darkBg .images img{
 }
 .footer-down{
     flex-wrap: wrap;
-    margin-left: 3px;
+    margin-left: -120px;
 }
 .footer1{
     padding-right: 150px;
     padding-top: 20px;
 }
 .footer1 h3{
-    font-size: 50px;
-    padding: 10px;
-    /* margin: 10; */
+    font-size: 64px;
+    padding: 7px;
+    /* margin: 35px; */
    
+}
+.footer1{
+    padding: 40px;
 }
 .footer1 span{
     color: rgb(124, 122, 122);
     cursor: pointer;
-    font-size: 35px;
-    padding: 10px;
+    font-size: 45px;
+    padding: 5px;
     
 }
 .footer1 .images{
@@ -164,8 +168,8 @@ body.darkBg .images img{
     gap: 50px;
 }
 .images img{
-   height: 120px;
-   width: 300px;
+   height: 150px;
+   width: 350px;
    
    
 }

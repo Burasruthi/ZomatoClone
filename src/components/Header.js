@@ -10,9 +10,11 @@ const Header = () => {
   let showMenu = ()=>{
     hanburgEle.current.classList.toggle('active')
     document.body.classList.add('active')
+    document.body.classList.add("no-scroll")
   }
   let removeMenu=()=>{
     hanburgEle.current.classList.remove('active')
+    document.body.classList.remove("no-scroll")
   }
   
 
@@ -26,11 +28,13 @@ const Header = () => {
     if(isActive){
         document.querySelector(".header").classList.add("dark");
         document.body.classList.add('darkBg')
+        document.body.classList.add("no-scroll")
         
     }
     else{
        document.querySelector(".header").classList.remove("dark");
         document.body.classList.remove('darkBg')
+        document.body.classList.remove("no-scroll")
     }
      
     

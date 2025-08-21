@@ -1,5 +1,5 @@
 img{
-    height: 550px;
+    height: 600px;
     width: 100vw;
     position: relative;
     object-fit: cover; 
@@ -324,20 +324,21 @@ input[type="text"]::placeholder{
 
  @media(max-width: 400px) {
     img{
-        height: 1300px;
-        width: 1200px;
+        height: 1400px;
+        width: 1520px;
+        
     }
     .header h1{
         position: absolute;
-        top: 90%;
-        left: 65%;
+        top: 110%;
+        left: 110%;
         font-size: 170px;
        
     }
     .header h4{
         position: absolute;
-        top:173%;
-        left: 59%;
+        top:200%;
+        left:90%;
         color: white;
         font-size: 66px;
         word-spacing: 2px;
@@ -353,6 +354,7 @@ input[type="text"]::placeholder{
 }
     .nav{
          width: 200%;
+    
         display: none;
         /* font-size: 50px;
         display: flex;
@@ -370,7 +372,8 @@ input[type="text"]::placeholder{
     }
     a{
         padding-top: 100px;
-        font-size: 70px;
+        padding-left: 100px;
+        font-size: 80px;
         color: gray;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     }
@@ -381,7 +384,7 @@ input[type="text"]::placeholder{
         display: block;
          width: 200%;
      
-        font-size: 50px;
+        font-size: 70px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -389,9 +392,9 @@ input[type="text"]::placeholder{
         top: 0%;
         left: 0%;
         padding-top: 400px;
-        padding-bottom: 1000px;
+        padding-bottom: 1150px;
         padding-left: 30%;
-        padding-right: 90%;
+        padding-right: 190%;
         background-color: white;
         z-index: 2;
     } 
@@ -405,30 +408,40 @@ input[type="text"]::placeholder{
     .nav h4{
         display: block;
         color: black;
+        top: 4%;
+        left: 70%;
+        font-size: 80px;
+        font-weight: 800;
+        font-style: italic;
     } 
-    .login{
+    /* .login{
     box-sizing: border-box;
-    height: 100vh;
-    width: 450px;
+    height: 60vh;
+    width: 55vw;
     border: 2px solid white;
     background-color: white;
     border-radius: 10px;
     display: none;
-    /* position: fixed; */
+    
     position: absolute;
-    left: 600px;
-    top: 90px;
+    left: 700px;
+    top: 100px;
     z-index: 2;
     
 
-}
+} */
 .login{
     
-    height: 260vh;
+    height: 60vh;
     width: 250vw;
-    left: 200px;
+    left: 90vw;
     top: 90px;
-    z-index: 2;    
+    z-index: 2;  
+    position: absolute;
+    /* position: sticky; */
+    left: 300px;
+    top: 100px;
+    z-index: 2;  
 }
 .login-top h3{
     font-size: 70px;
@@ -512,6 +525,9 @@ input[type="text"]::placeholder{
     padding: 40px;
     font-size: 35px;
 
+}
+body.no-scroll {
+  overflow: hidden;
 }
 
 .signup{
