@@ -7,7 +7,7 @@ const SignUp = () => {
       <form>
         <div className='signuptop'>
             <h3>Sign Up</h3>
-            <p style={{margin: "23px", fontSize:"20px"}}>&#10006;</p>
+            <p>&#10006;</p>
         </div>
         <div className='signup-text'>
             <input type="text" placeholder='Full Name'/><br></br>

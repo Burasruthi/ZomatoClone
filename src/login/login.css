@@ -1,9 +1,11 @@
-.login{
+/* .login{
     box-sizing: border-box;
-    height: 470px;
-    width: 450px;
+    height: 69vh;
+    width: 30vw;
     border: 2px solid black;
     border-radius: 10px;
+    position: absolute;
+    left: 40%;
 
 }
 .login-top{
@@ -28,9 +30,12 @@
     padding: 5px;
 }
 .loginbody img{
+     height: 5vh;
+     width: 6vw;
     padding-right: 2px;
     margin-right: 5px;
     margin-bottom: -5px;
+   
 }
 .loginbody span{
    padding-right: 5px;
@@ -52,9 +57,10 @@ input[type="text"]::placeholder{
 
 }
 .logindown{
-    text-align: center;
-}
+     text-align: center;
+} 
 .logindown p{
+    font-size: 10px;
     width: 350px;
     background-color: rgb(240, 4, 4);
     padding: 10px;
@@ -63,9 +69,11 @@ input[type="text"]::placeholder{
     text-align: center;
     border-radius: 5px;
     margin-left: 30px;
-}
-.logindown span{
     
+}
+.logindown p{
+    
+    font-size: 25px;
 }
 .logindown1{
     border: 2px solid black;
@@ -73,10 +81,12 @@ input[type="text"]::placeholder{
     padding: 8px;
     border-radius: 10px;
     margin: 20px;
-    /* text-align: center; */
+    
     margin-left: 30px;
 }
 .logindown1 img{
+    height: 50px;
+     width: 20px;
     margin-bottom: -5px;
 }
 .down{
@@ -84,3 +94,84 @@ input[type="text"]::placeholder{
     margin-left: 10px;
 }
 
+@media(max-width: 400px){
+.login{
+    box-sizing: border-box;
+    height: 260vh;
+    width: 250vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    left: 150px;
+    top: 250px;
+    position: static;
+}
+.login-top p{
+    padding: 35px;
+    font-size: 40px;
+    padding-right: 60px;
+    
+}
+.login-top h3{
+    font-size: 70px;
+    color: gray;
+    padding-left: 30px;
+}
+.loginbody{
+    width: 750px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 93px;
+   
+}
+.loginbody img{
+    
+    margin-left: 15px;
+    
+}
+.loginbody span{
+    font-size: 50px;
+    padding: 40px;
+}
+input[type="text"]{
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+}
+input[type="text"]::placeholder{
+    font-size: 40px;
+}
+.logindown p{
+    width: 700px;
+    padding: 25px;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 50px;
+    font-size: 40px;
+
+}
+.logindown1{
+
+    width: 700px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px;
+    margin-left: 90px;
+}
+.logindown1 span{
+    font-size: 40px;
+
+}
+.logindown i{
+   font-size: 40px;
+}
+.logindown1 span{
+    font-size: 40px;
+
+}
+.down p{
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+
+} */

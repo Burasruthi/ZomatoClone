@@ -10,7 +10,7 @@ const Section = () => {
     <>
     
     <div className='section'>
-      <h4>Popular locations in  <img src="https://b.zmtcdn.com/images/flags_z10/in.png?output-format=webp" alt="india flag"/> India</h4>
+      <h1>Popular locations in  <img src="https://b.zmtcdn.com/images/flags_z10/in.png?output-format=webp" alt="india flag"/> India</h1>
       <p>From swanky upscale restaurants to the cosiest hidden gems serving the most incredible food, Zomato covers it all. Explore menus, and millions of restaurant photos and reviews from users just like you, to find your next great meal.</p>
     </div>
     

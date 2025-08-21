@@ -17,7 +17,7 @@
 .left h2{
     font-size: 45px;
     font-style: italic;
-    margin-left: -20px;
+    margin-left: -60px;
 }
 .footer .right{
     display: flex;
@@ -36,6 +36,10 @@
     font-weight: 400;
     
 }
+.right img{
+    height: 15px;
+}
+
 .footer-right{
     display: flex;
     gap: 30px;
@@ -95,9 +99,12 @@ body.darkBg .images img{
     filter: brightness(5%);
 }
 
+
+
+
 @media(max-width: 400px){
 .footerSection{
-     height: 1000px;
+     height: 2000px;
      width: 1200px;
 
 }
@@ -112,11 +119,28 @@ body.darkBg .images img{
     
 }
 .footer-right{
-    flex-direction: column;
+    flex-direction: row;
+    margin-left: 140px;
+}
+.footer .right{
     
+    height: 20vh;
+    width: 80vw; 
+    border-radius: 5px;   
+}
+.right img{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+
+}
+.right h4{
+    font-size: 50px;
+    font-weight: 400;
 }
 .footer-down{
     flex-wrap: wrap;
+    margin-left: 3px;
 }
 .footer1{
     padding-right: 150px;
@@ -124,15 +148,16 @@ body.darkBg .images img{
 }
 .footer1 h3{
     font-size: 50px;
-    padding: 0;
-    margin: 0;
+    padding: 10px;
+    /* margin: 10; */
    
 }
-.footer1 p{
-    font-size: 40px;
-    margin: 0;
-    padding: -2px;
-
+.footer1 span{
+    color: rgb(124, 122, 122);
+    cursor: pointer;
+    font-size: 35px;
+    padding: 10px;
+    
 }
 .footer1 .images{
     flex-direction: row;

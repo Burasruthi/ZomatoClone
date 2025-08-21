@@ -17,12 +17,11 @@ const Footer = () => {
 
             
                 <div className="right">
-                    <img style={{height: "22px", width: "30px"}}
+                    <img
                         src="https://b.zmtcdn.com/images/flags_z10/in.png?output-format=webp"
                         alt="flag"
                     />
                     <h4>India</h4>
-                    {/* ✅ use icon directly */}
                     <FontAwesomeIcon icon={faAngleDown} />
                  </div>
                 <div className="right">

@@ -1,5 +1,5 @@
 img{
-    height: 570px;
+    height: 550px;
     width: 100vw;
     position: relative;
     object-fit: cover; 
@@ -7,7 +7,7 @@ img{
 
 .header h1{
     position: absolute;
-    top: 15%;
+    top: 17%;
     left: 39%;
     color: white;
     font-size: 90px;
@@ -16,7 +16,7 @@ img{
 }
 .header h4{
     position: absolute;
-    top: 39%;
+    top: 37%;
     left: 39%;
     color: white;
     font-size: 40px;
@@ -79,8 +79,8 @@ a{
 } */
 .login{
     box-sizing: border-box;
-    height: 470px;
-    width: 450px;
+    height: 65vh;
+    width: 28vw;
     border: 2px solid white;
     background-color: white;
     border-radius: 10px;
@@ -138,7 +138,7 @@ body.darkBg{
     padding-left: 30px;
 }
 .loginbody{
-    width: 360px;
+    width: 80%;
     margin-left: 33px;
     box-sizing: border-box;
     border: 1px solid rgb(102, 98, 98);
@@ -146,9 +146,11 @@ body.darkBg{
     padding: 5px;
 }
 .loginbody img{
-    padding-right: 2px;
+    height: 25px;
+    width: 40px;
+    padding: 0px 10px;
     margin-right: 5px;
-    margin-bottom: -5px;
+    margin-bottom: -7px;
 }
 .loginbody span{
    padding-right: 5px;
@@ -159,7 +161,7 @@ body.darkBg{
 input[type="text"]{
     
     border-left: 1px solid black;
-    padding: 10px;
+    padding: 5px;
     border: 2px solid white;
   
 }
@@ -172,7 +174,9 @@ input[type="text"]::placeholder{
     text-align: center;
 }
 .logindown p{
-    width: 350px;
+    font-size: 15px;
+    width: 76%;
+    /* height: 5%; */
     background-color: rgb(240, 4, 4);
     padding: 10px;
     margin-left: 10px;
@@ -180,31 +184,42 @@ input[type="text"]::placeholder{
     text-align: center;
     border-radius: 5px;
     margin-left: 30px;
-}
-.logindown span{
     
 }
+.logindown1 span{
+    font-size: 16px;
+}
 .logindown1{
-    border: 2px solid black;
-    width: 350px;
+    border: 2px solid rgba(0, 0, 0, 0.304);
+    width: 76%;
     padding: 8px;
     border-radius: 10px;
     margin: 20px;
-    /* text-align: center; */
+    text-align: center;
     margin-left: 30px;
 }
+.logindown1-inner {
+    height: 30px ;
+   font-size: 30px;
+    color: red;
+    padding: 10px;
+}
 .logindown1 img{
+    height: 20px;
+    width: 20px;
     margin-bottom: -5px;
 }
 .down{
-    padding-top: 10px;
-    margin-left: 10px;
+    /* padding-top: 10px;
+    margin-left: 10px; */
+    padding: 20px;
 
 }
 
 .signup.active{
     display: block;
 }
+
 .signup{
     
     display: none;
@@ -216,7 +231,7 @@ input[type="text"]::placeholder{
     position: fixed;
     position: relative;
     position: absolute;
-    top: -500px;
+    top: 100px;
     left: 600px;
     background-color: white;
     margin-bottom: -520px;
@@ -238,12 +253,12 @@ input[type="text"]::placeholder{
 
 }
 .signup-text input[type="text"]{
-border: 2PX solid rgba(0, 0, 0, 0.268);
-width: 350px;
-border-radius: 5px;
-margin: 7px;
-margin-left: 30px;
-padding: 15px;
+    border: 2PX solid rgba(0, 0, 0, 0.268);
+    width: 350px;
+    border-radius: 5px;
+    margin: 7px;
+    margin-left: 30px;
+    padding: 15px;
 }
 .signup-text input[type="text"]::placeholder{
     font-size: 16px;
@@ -301,21 +316,6 @@ padding: 15px;
 .sinupdown3{
     padding: 25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -406,7 +406,196 @@ padding: 15px;
         display: block;
         color: black;
     } 
+    .login{
+    box-sizing: border-box;
+    height: 100vh;
+    width: 450px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    display: none;
+    /* position: fixed; */
+    position: absolute;
+    left: 600px;
+    top: 90px;
+    z-index: 2;
     
+
+}
+.login{
+    
+    height: 260vh;
+    width: 250vw;
+    left: 200px;
+    top: 90px;
+    z-index: 2;    
+}
+.login-top h3{
+    font-size: 70px;
+    color: gray;
+    padding-left: 60px;
+} 
+.login-top p{
+    font-size: 40px;
+    padding: 55px;
+    
+}
+.loginbody{
+    width: 80%;
+    margin-left: 73px;
+    border-radius: 5px;
+    padding: 40px;
+}
+.loginbody img{
+    height: 62px;
+    width: 70px;
+    padding-right: 25px;
+    margin-right: 5px;
+    margin-bottom: -5px;
+}
+.loginbody span{
+    font-size: 50px;
+   padding-right: 15px;
+
+    
+}
+
+input[type="text"]{
+    
+    border-left: 1px solid black;
+    padding: 12px 20px 0px 10px;
+    border: 2px solid white;
+  
+}
+input[type="text"]::placeholder{
+    font-size: 30px;
+    
+
+}
+.logindown p{
+    font-size: 35px;
+    width: 74%;
+    padding: 25px;
+    border-radius: 5px;
+    margin-left: 67px;
+    margin-top: 45px;
+    
+}
+.logindown i{
+    font-size: 35px;
+}
+.logindown1 span{
+    font-size: 36px;
+}
+.logindown1{
+    border: 2px solid rgba(0, 0, 0, 0.304);
+    width: 76%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    margin-left: 55px;
+}
+.logindown1-inner{
+   font-size: 30px;
+    color: red;
+    padding: 20px;
+}
+.logindown1 img{
+    height: 40px;
+    width: 40px;
+    margin-bottom: px;
+}
+.down{
+    /* padding-top: 10px;
+    margin-left: 10px; */
+    padding: 40px;
+    font-size: 35px;
+
+}
+
+.signup{
+    box-sizing: border-box;
+    height: 1200px;
+    width: 930px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    position: fixed;
+    top: 300px;
+    left: 200px;
+    
+    
+}
+.signuptop h3{
+    font-size: 70px;
+    padding: 20px;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.715);
+
+}
+.signup-text input[type="text"]{
+
+    width: 650px;
+    height: 70px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 80px;
+
+}
+.signup-text input[type="text"]::placeholder{
+    font-size: 36px;
+}
+.signup-checkbox input[type="checkbox"]{
+    padding: 20px;
+    margin-top: 25px;
+    margin-left: 70px;
+    
+}
+.signup-checkbox p{
+    position: absolute;
+    top: 45%;
+    left: 17%;
+    width: 650px;
+    font-size: 30px;
+
+}
+.sigupdown1 p{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    width: 620px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+.sigupdown1 i{
+    font-size: 30px;
+}
+.signupdown2{
+    width: 650px;
+    border: 2px solid rgba(0, 0, 0, 0.144);
+    margin-top: -20px;
+    margin-left: 75px;
+    font-size: 30px;
+    padding: 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+.signupdown2 img{
+    height: 30px;
+    width: 30px;
+}
+.signuptop p{
+    margin: 23px;
+    font-size: 40px;
+}
+.sinupdown3{
+    padding: 45px;
+    font-size: 30px;
+    margin-top: 30px;
+}
     
     
 } 

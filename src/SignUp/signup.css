@@ -1,4 +1,4 @@
-.signup{
+/* .signup{
     box-sizing: border-box;
     height: 505px;
     width: 450px;
@@ -13,6 +13,10 @@
     padding: 20px;
     margin-top: -25px;
 
+}
+.signuptop p{
+    margin: 23px;
+    font-size: 20px;
 }
 .signuptop h3{
     font-size: 29px;
@@ -50,6 +54,7 @@ padding: 15px;
 }
 .sigupdown1{
     padding: 40px;
+     text-align: center;
 
 
 }
@@ -63,11 +68,6 @@ padding: 15px;
     text-align: center;
     background-color: rgba(128, 128, 128, 0.541);
     color: white;
-}
-.sigupdown1{
-    text-align: center;
-   
-    
 }
 
 .signupdown2{
@@ -85,3 +85,88 @@ padding: 15px;
 .sinupdown3{
     padding: 25px;
 }
+
+@media(max-width: 400px){
+.signup{
+    box-sizing: border-box;
+    height: 1200px;
+    width: 930px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    position: fixed;
+    top: 300px;
+    left: 200px;
+    
+    
+}
+.signuptop h3{
+    font-size: 70px;
+    padding: 20px;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.715);
+
+}
+.signup-text input[type="text"]{
+
+    width: 650px;
+    height: 70px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 80px;
+
+}
+.signup-text input[type="text"]::placeholder{
+    font-size: 36px;
+}
+.signup-checkbox input[type="checkbox"]{
+    padding: 20px;
+    margin-top: 25px;
+    margin-left: 70px;
+    
+}
+.signup-checkbox p{
+    position: absolute;
+    top: 45%;
+    left: 17%;
+    width: 650px;
+    font-size: 30px;
+
+}
+.sigupdown1 p{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    width: 620px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+.sigupdown1 i{
+    font-size: 30px;
+}
+.signupdown2{
+    width: 650px;
+    border: 2px solid rgba(0, 0, 0, 0.144);
+    margin-top: -20px;
+    margin-left: 75px;
+    font-size: 30px;
+    padding: 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+.signupdown2 img{
+    height: 30px;
+    width: 30px;
+}
+.signuptop p{
+    margin: 23px;
+    font-size: 40px;
+}
+.sinupdown3{
+    padding: 45px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+} */
