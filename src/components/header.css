@@ -343,7 +343,7 @@ cursor: pointer;
     }
     .header h1{
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 70%;
         font-size: 240px;
        
@@ -353,7 +353,7 @@ cursor: pointer;
         top:140%;
         left:90%;
         color: white;
-        font-size: 66px;
+        font-size: 70px;
         word-spacing: 2px;
         width: 1000px;    
     }
@@ -405,7 +405,7 @@ cursor: pointer;
         top: 0%;
         left: 0%;
         padding-top: 400px;
-        padding-bottom: 1150px;
+        padding-bottom: 1450px;
         padding-left: 30%;
         padding-right: 190%;
         background-color: white;
@@ -422,8 +422,8 @@ cursor: pointer;
         display: block;
         color: black;
         top: 4%;
-        left: 70%;
-        font-size: 80px;
+        left: 67%;
+        font-size: 90px;
         font-weight: 800;
         font-style: italic;
     } 
@@ -454,6 +454,7 @@ cursor: pointer;
     left: 0;
     top: 490px;
     z-index: 2;  
+    border: 2px solid black;
 }
 .login-top h3{
     font-size: 100px;
@@ -550,7 +551,7 @@ body.no-scroll {
 
 .signup{
     box-sizing: border-box;
-    height: 1700px;
+    height: 1800px;
     width: 1450px;
     border: 2px solid black;
     border-radius: 10px;
@@ -558,6 +559,7 @@ body.no-scroll {
     position: fixed;
     top: 400px;
     left: 0px;
+    margin-bottom: 50px;
     
     
 }
@@ -636,7 +638,7 @@ body.no-scroll {
 }
 .sinupdown3{
     padding: 45px;
-    font-size: 30px;
+    font-size: 50px;
     margin-top: 30px;
 }
     
