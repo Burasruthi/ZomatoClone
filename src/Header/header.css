@@ -344,7 +344,7 @@ cursor: pointer;
     .header h1{
         position: absolute;
         top: 60%;
-        left: 70%;
+        left: 79%;
         font-size: 240px;
        
     }
@@ -364,7 +364,7 @@ cursor: pointer;
         padding-left: 65px;
         font-size: 100px;
         display: block;
-}
+    }
     .nav{
          width: 200%;
     
@@ -405,7 +405,7 @@ cursor: pointer;
         top: 0%;
         left: 0%;
         padding-top: 400px;
-        padding-bottom: 300%;
+        padding-bottom: 800%;
         padding-left: 30%;
         padding-right: 190%;
         background-color: white;
@@ -460,10 +460,12 @@ cursor: pointer;
     font-size: 100px;
     color: gray;
     padding-left: 60px;
+    padding-top: 100px;
 } 
 .login-top p{
     font-size: 70px;
-    padding: 80px;
+    padding: 100px;
+
     
 }
 .loginbody{
@@ -481,7 +483,7 @@ cursor: pointer;
 }
 .loginbody span{
     font-size: 50px;
-   padding-right: 55px;
+   padding-right: 65px;
 
     
 }
@@ -501,9 +503,9 @@ input[type="text"]::placeholder{
 .logindown p{
     font-size: 55px;
     width: 80%;
-    padding: 25px;
+    padding: 35px;
     border-radius: 5px;
-    margin-left: 67px;
+    margin-left: 77px;
     margin-top: 45px;
     
 }
@@ -530,12 +532,12 @@ input[type="text"]::placeholder{
 .logindown1-inner{
    font-size: 30px;
     color: red;
-    padding: 20px;
+    padding: 30px;
 }
 .logindown1 img{
-    height: 40px;
-    width: 40px;
-    margin-bottom: px;
+    height: 6%;
+    width: 60px;
+    margin-bottom: -10px;
 }
 .down{
     /* padding-top: 10px;
@@ -571,7 +573,7 @@ body.no-scroll {
 
 }
 .signuptop p{
-    font-size: 100px;
+    font-size: 200px;
     padding: 90px;
 }
 .signup-text input[type="text"]{
