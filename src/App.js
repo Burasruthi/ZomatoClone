@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
+
 import Section from './section/Section';
 import Footer from './footer/Footer';
-import Login from './login/Login';
-import SignUp from './SignUp/SignUp';
+import Header from './Header/Header';
+
 
 
 function App() {
@@ -13,8 +13,7 @@ function App() {
       <Header/>
       <Section/>
       <Footer/>
-      {/* <Login/> */}
-      {/* <SignUp/> */}
+      
     </>
   );
 }
