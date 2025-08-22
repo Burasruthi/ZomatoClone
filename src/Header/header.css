@@ -7,19 +7,19 @@ img{
 
 .header h1{
     position: absolute;
-    top: 17%;
+    top: 19%;
     left: 40%;
     color: white;
-    font-size: 85px;
+    font-size: 82px;
     font-style: italic;
     font-weight: 800;
 }
 .header h4{
     position: absolute;
-    top: 37%;
-    left: 40%;
+    top: 38%;
+    left: 41%;
     color: white;
-    font-size: 37px;
+    font-size: 35px;
     width: 700px;
     margin-left: -110px;
     font-weight: 400;
